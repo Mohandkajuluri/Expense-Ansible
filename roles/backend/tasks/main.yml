@@ -24,7 +24,6 @@
         app_dir: /app
         component: backend
 
-
 - name: Download nodejs dependencies
   ansible.builtin.shell: npm install
   args:
